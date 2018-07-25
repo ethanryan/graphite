@@ -1,19 +1,21 @@
 import React from 'react';
 
 // import 'quill/dist/quill.core.css';
-import 'quill/dist/quill.snow.css'; //need to import this for snow theme to display correctly...
 
-import Quill from 'quill/core'; //must be from core for functions to work!!!
-import Toolbar from 'quill/modules/toolbar';
-import Snow from 'quill/themes/snow'; //snow works, but need to import and register formats, and replace icons...
 
-import Bold from 'quill/formats/bold';
-import Italic from 'quill/formats/italic';
-import Header from 'quill/formats/header';
-import Underline from 'quill/formats/underline';
-import Link from 'quill/formats/link';
-import List, { ListItem } from 'quill/formats/list';
-import Icons from 'quill/ui/icons'; //need to import icons, then replace them...
+// import 'quill/dist/quill.snow.css'; //need to import this for snow theme to display correctly...
+//
+// import Quill from 'quill/core'; //must be from core for functions to work!!!
+// import Toolbar from 'quill/modules/toolbar';
+// import Snow from 'quill/themes/snow'; //snow works, but need to import and register formats, and replace icons...
+//
+// import Bold from 'quill/formats/bold';
+// import Italic from 'quill/formats/italic';
+// import Header from 'quill/formats/header';
+// import Underline from 'quill/formats/underline';
+// import Link from 'quill/formats/link';
+// import List, { ListItem } from 'quill/formats/list';
+// import Icons from 'quill/ui/icons'; //need to import icons, then replace them...
 
 export default class QuillEditorPrivate extends React.Component {
 
